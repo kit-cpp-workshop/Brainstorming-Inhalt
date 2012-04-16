@@ -1,0 +1,4 @@
+Versionsverwaltung: Warum?
+Zentral-Dezentral
+Git/Github Workflow
+	init/clone/checkout/pull/push/commit

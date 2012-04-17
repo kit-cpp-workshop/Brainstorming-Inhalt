@@ -20,7 +20,8 @@
 * http://git-scm.com/ - Offizielle Website
 * http://gitref.org/ - Git Referenz
 * https://github.com/Gazler/githug - Interaktives Git Tutorial
-
+* http://gitready.com/ - Git tips and tricks
+* http://progit.org/book/ - The Pro Git Book
 
 ## Praxis
 

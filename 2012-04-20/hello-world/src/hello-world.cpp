@@ -20,7 +20,7 @@ int main()
 
 
 	std::cout << "!!!Hello World!!!";
-	std::cout << "Noch mehr Text\nUnd ein Zeilenumbruch";
+	std::cout << "Noch mehr Text\nUnd ein Zeilenumbruch\n";
 	std::cout << "Ein wesentlicher sinnvollerer Zeilenumbruch:" << std::endl;
 	std::cout << "Geschah soeben." << std::endl;
 

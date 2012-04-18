@@ -25,7 +25,7 @@
 ## concepts
 * code modularization using functions
 * function calls and return values
-* scope of a local variable (`automatic lifetime` according to TEH Standard)
+* scope of a local variable (on scope exit, e.g. functions ends, the variable isn't available any longer)
 * procedural / linear program flow (it won't be executed concurrently)
 
 

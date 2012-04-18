@@ -1,7 +1,10 @@
 ﻿# Vorraussetzungen für die Teilnahme
 (oder: was man wissen sollte und nicht mehr erklärt wird)
 
+Übungsblätter des Kurses "Programmieren für Physiker" mitsamt nachvollziehbarer *Muster*lösung (nicht von mir): [download](http://leute.server.de/mabldata/forum/download/file.php?id=1045)
+
 *Robert: das ist reiner Vorschlag, bitte per commit / comment erweitern oder verkleinern*
+
 *Robert: sry, das ging einfach nicht auf deutsch...*
 
 

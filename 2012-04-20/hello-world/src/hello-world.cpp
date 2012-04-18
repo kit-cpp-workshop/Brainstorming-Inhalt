@@ -2,7 +2,7 @@
 // Name        : hello-world.cpp
 // Author      : Robert
 // Version     :
-// Copyright   : © cpp-workshop
+// Copyright   : ï¿½ cpp-workshop
 // Description : Hello World in C++
 //============================================================================
 
@@ -33,7 +33,17 @@ int main()
 	int bar;
 	bar = foo;
 
-	// Aufgabe 1: Vergleiche foo mit bar und gebe aus, ob sie gleich sind.
+	//+ Aufgabe 1: Vergleiche foo mit bar und gebe aus, ob sie gleich sind.
+		if(foo == bar)
+		{
+			std::cout << "foo == bar" << std::endl;
+		}else
+		{
+			std::cout << "foo != bar" << std::endl;
+		}
+		//alternativ:
+		std::cout << "foo == bar? " << std::boolalpha << (foo == bar) << std::endl;
+	//- Aufgabe 1
 
 	bar = 0;
 
@@ -43,7 +53,38 @@ int main()
 	std::cout << "Wert von 'bar': " << bar << std::endl;
 
 
-	// Aufgabe 2: i-was mit cin? for? switch? mglw. ein kleiner taschenrechner?
+	//+ Aufgabe 2: i-was mit cin? for? switch? mglw. ein kleiner taschenrechner?
+		char cmd;
+		double number;
+		double buf = 0;
+		while(true)
+		{
+			std::cout << "result: " << buf << std::endl;
+			std::cin >> cmd;
+
+			if('q' == cmd)
+			{
+				break;
+			}
+
+			std::cin >> number;
+
+			switch(cmd)
+			{
+			case '+':
+				buf += number;
+				break;
+
+			case '*':
+				buf *= number;
+				break;
+
+			default:
+				std::cout << "Operator nicht bekannt!" << std::endl;
+				break;
+			}
+		}
+	//- Aufgabe 2
 
 
 	return 0;

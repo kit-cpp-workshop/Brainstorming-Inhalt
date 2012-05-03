@@ -110,22 +110,32 @@ KIT -- University of the State of Baden-Wuerttemberg and\\National Laboratory of
 \newlength{\kitbottom}
 \usebackgroundtemplate{
 	\setlength{\kitbottom}{\ifbeamer@plainframe1mm\else9mm\fi}%
-\begin{pgfpicture}{0mm}{0mm}{\paperwidth}{\paperheight}
+	\begin{pgfpicture}{0mm}{0mm}{\paperwidth}{\paperheight}
 
-	{\pgfsetcornersarced{\pgfpoint{2mm}{2mm}}
-	\pgfpathmoveto{\pgfpoint{\paperwidth-1mm}{\kitbottom}}
-	\pgfpathlineto{\pgfpoint{1mm}{\kitbottom}}
-	\pgfpathlineto{\pgfpoint{1mm}{\paperheight-1mm}}}
+		\pgfseteorule
 
-	{\pgfsetcornersarced{\pgfpoint{2mm}{2mm}}
-	\pgfpathmoveto{\pgfpoint{1mm}{\paperheight-1mm}}
-	\pgfpathlineto{\pgfpoint{\paperwidth-1mm}{\paperheight-1mm}}
-	\pgfpathlineto{\pgfpoint{\paperwidth-1mm}{\kitbottom}}}
+		\pgfpathrectangle{\pgfpoint{0mm}{0mm}}{\pgfpoint{\paperwidth}{\paperheight}}
+		
+		{
+			\pgfsetcornersarced{\pgfpoint{2mm}{2mm}}
+			
+			\pgfpathmoveto{\pgfpoint{\paperwidth-1mm}{\kitbottom}}
+			\pgfpathlineto{\pgfpoint{1mm}{\kitbottom}}
+			\pgfpathlineto{\pgfpoint{1mm}{\paperheight-1mm}}
+		}
 
-	\color{white}
-	\pgfusepath{fill}
+		{
+			\pgfsetcornersarced{\pgfpoint{2mm}{2mm}}
+			\pgfpathmoveto{\pgfpoint{1mm}{\paperheight-1mm}}
+			\pgfpathlineto{\pgfpoint{\paperwidth-1mm}{\paperheight-1mm}}
+			\pgfpathlineto{\pgfpoint{\paperwidth-1mm}{\kitbottom}}
+		}
 
-\end{pgfpicture}%
+		%\color{white}
+		\color{black!15}
+		\pgfusepath{fill}
+
+	\end{pgfpicture}%
 }
 
 %frametitle

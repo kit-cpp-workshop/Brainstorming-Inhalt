@@ -10,3 +10,5 @@
 - Eigene Bibliotheken schreiben
 - evtl. simple 2D-Grafikprogrammierung
 - Internationalisierung
+- Defensive Programmierung
+- Testing/Test-Driven Development

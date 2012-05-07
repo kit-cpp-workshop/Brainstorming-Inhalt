@@ -12,3 +12,5 @@
 - Internationalisierung
 - Defensive Programmierung
 - Testing/Test-Driven Development
+- Fehlerbehandlung/Exceptions
+- Sinnvolles Arbeiten mit Zeichenketten/Strings

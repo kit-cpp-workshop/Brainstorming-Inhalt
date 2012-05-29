@@ -1,12 +1,14 @@
 # Ideen/Themen für Workshop-Inhalte
 
-- Compiler / Linker
-- Modularisierung
-- Pointer
-- Objektorientierung
+- ~~Compiler / Linker~~
+- ~~Modularisierung~~
+- ~~Pointer~~ (fptr fehlen noch)
+- Objektorientierung (tw. erledigt)
 - Templates: Container
-- Datenstrukturen und Algorithmen
+- Datenstrukturen und Algorithmen (vektoren, listen, mengen, hashmaps, bäume/priority-queues) (sortieren)
 - Multithreading
+- Verwendung externen Bibliotheken (file system, networking, strings?)
+- Grundlagen der STL
 - Eigene Bibliotheken schreiben
 - evtl. simple 2D-Grafikprogrammierung
 - Internationalisierung
@@ -14,3 +16,7 @@
 - Testing/Test-Driven Development
 - Fehlerbehandlung/Exceptions
 - Sinnvolles Arbeiten mit Zeichenketten/Strings
+- friendship
+- operatoren
+- typedefs
+- const (correctness)

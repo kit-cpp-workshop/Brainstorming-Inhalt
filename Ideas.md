@@ -4,19 +4,19 @@
 - ~~Modularisierung~~
 - ~~Pointer~~ (fptr fehlen noch)
 - Objektorientierung (tw. erledigt)
-- Templates: Container
-- Datenstrukturen und Algorithmen (vektoren, listen, mengen, hashmaps, bäume/priority-queues) (sortieren)
+- ~~Templates: Container~~
+- Grundlagen der STL (fällt zusammen mit nächstem Punkt)
+- Datenstrukturen und Algorithmen (~~vektoren, listen,~~ mengen, hashmaps, bäume/priority-queues) (sortieren)
 - Multithreading
-- Verwendung externen Bibliotheken (file system, networking, strings?)
-- Grundlagen der STL
+- Externe Bibliotheken (file system, networking, strings?)
 - Eigene Bibliotheken schreiben
-- evtl. simple 2D-Grafikprogrammierung
+- ~~evtl. simple 2D-Grafikprogrammierung~~
 - Internationalisierung
 - Defensive Programmierung
 - Testing/Test-Driven Development
 - Fehlerbehandlung/Exceptions
 - Sinnvolles Arbeiten mit Zeichenketten/Strings
-- friendship
-- operatoren
-- typedefs
-- const (correctness)
+- ~~friendship~~
+- ~~operatoren~~
+- ~~typedefs~~
+- ~~const (correctness)~~

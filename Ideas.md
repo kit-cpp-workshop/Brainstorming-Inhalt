@@ -20,3 +20,4 @@
 - ~~operatoren~~
 - ~~typedefs~~
 - ~~const (correctness)~~
+- Einführung/Ausblick C++11

@@ -3,19 +3,19 @@
 - ~~Compiler / Linker~~
 - ~~Modularisierung~~
 - ~~Pointer~~ (fptr fehlen noch)
-- Objektorientierung (tw. erledigt)
+- ~~Objektorientierung~~
 - ~~Templates: Container~~
-- Grundlagen der STL (fällt zusammen mit nächstem Punkt)
-- Datenstrukturen und Algorithmen (~~vektoren, listen,~~ mengen, hashmaps, bäume/priority-queues) (sortieren)
+- ~~Grundlagen der STL (fällt zusammen mit nächstem Punkt)~~
+- ~~Datenstrukturen und Algorithmen (~~vektoren, listen,~~ mengen, hashmaps, bäume/priority-queues) (sortieren)~~
 - Multithreading
 - Externe Bibliotheken (file system, networking, strings?)
 - Eigene Bibliotheken schreiben
 - ~~evtl. simple 2D-Grafikprogrammierung~~
 - Internationalisierung
-- Defensive Programmierung
-- Testing/Test-Driven Development
-- Fehlerbehandlung/Exceptions
-- Sinnvolles Arbeiten mit Zeichenketten/Strings
+- ~~Defensive Programmierung~~
+- ~~Testing/Test-Driven Development~~
+- ~~Fehlerbehandlung/Exceptions~~
+- ~~Sinnvolles Arbeiten mit Zeichenketten/Strings~~
 - ~~friendship~~
 - ~~operatoren~~
 - ~~typedefs~~
